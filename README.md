@@ -1,1 +1,2 @@
-Language Centre Presentation Page created using React, Javascript, HTML, Bootstrap v.5 and CSS3
+Language Centre Presentation Page built in React with HTML, CSS, and JavaScript.
+[Live demo](https://cambridge-elite-english.netlify.app/)
