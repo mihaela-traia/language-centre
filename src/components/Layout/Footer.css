@@ -1,0 +1,73 @@
+:root {
+  --primary: #012169;
+  --secondary: #c8102e;
+  --button: #ffffff;
+  --footer: #011137;
+  --primary-hover: #526899;
+  --primary-active: #00154b;
+  --secondary-hover: #9d0921;
+  --secondary-active: #7f001a;
+  --unselected: #c7c7c7;
+  --bg-blue: rgba(186, 224, 243, 0.2);
+  --bg-red: rgba(240, 188, 196, 0.2);
+  --bg-dark-blue: #011647;
+  --back-hover: #a8b5d0;
+  --shadow-card: 0 -4px 8px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1),
+    0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.josefin-sans-h2 {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 42px;
+}
+.montserrat-sans-p {
+  font-family: "Montserrat", sans-serif !important;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: 16px !important;
+}
+
+footer {
+  background-color: var(--footer);
+  color: var(--text-button);
+  width: 100%;
+  height: auto;
+  font-weight: 400 !important;
+  padding: 0 12.75vw;
+  padding-top: 2.25rem;
+}
+footer h2 {
+  font-size: 18px !important;
+  font-weight: 500 !important;
+}
+footer .logo img {
+  width: 150px;
+  height: auto;
+}
+.socials-img {
+  padding-left: 0 !important;
+}
+footer .mx-2 {
+  margin-left: 0 !important;
+}
+.line {
+  background-color: #ffffff;
+  border-radius: 10px;
+  width: 75%;
+  height: 3px;
+}
+footer p {
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+}
+.copyright {
+  margin: 0;
+  padding-bottom: 24px !important;
+  text-align: center;
+}
+footer a {
+  color: #ffffff;
+}

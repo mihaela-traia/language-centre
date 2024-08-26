@@ -1,0 +1,18 @@
+{
+  "classes": [
+    {
+      "level": "Flyers",
+      "schedule": "Marți & Joi, 16:00-18:00",
+      "startingDate": "09.09.2024",
+      "openSpots": "2 locuri",
+      "age": "kids"
+    },
+    {
+      "level": "Intermediate",
+      "schedule": "Luni & Miercuri, 17:00-19:00",
+      "startingDate": "23.09.2024",
+      "openSpots": "7 locuri",
+      "age": "teens"
+    }
+  ]
+}

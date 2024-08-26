@@ -1,0 +1,90 @@
+:root {
+  --primary: #012169;
+  --secondary: #c8102e;
+  --button: #ffffff;
+  --footer: #011137;
+  --primary-hover: #526899;
+  --primary-active: #00154b;
+  --secondary-hover: #9d0921;
+  --secondary-active: #7f001a;
+  --unselected: #c7c7c7;
+  --bg-blue: rgba(186, 224, 243, 0.2);
+  --bg-red: rgba(240, 188, 196, 0.2);
+  --bg-dark-blue: #011647;
+  --back-hover: #a8b5d0;
+  --shadow-card: 0 -4px 8px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1),
+    0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.josefin-sans-menu {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+nav {
+  width: 100% !important;
+}
+a {
+  text-decoration: none !important;
+}
+.navbar-brand img {
+  width: 150px;
+  height: auto;
+}
+.navbar {
+  padding: 0 12.75vw !important;
+}
+.container-fluid {
+  --bs-gutter-x: 0px !important;
+}
+.navbar-nav {
+  --bs-navbar-color: var(--primary) !important;
+  --bs-navbar-active-color: var(--primary-active) !important;
+  --bs-navbar-hover-color: var(--primary-hover) !important; /*de revenit*/
+}
+.nav-link {
+  font-weight: 500 !important;
+  font-size: 18px !important;
+  padding: 0 0.5rem !important;
+}
+.navbar-nav .nav-link {
+  position: relative;
+}
+.navbar-nav .nav-link::after {
+  content: "";
+  position: absolute;
+  background-color: var(--primary);
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -5px;
+  transition: 0.3s;
+}
+.navbar-nav .nav-link:hover:after {
+  width: 100%;
+}
+.button-ghost {
+  border: 1px solid var(--text-secondary) !important;
+  color: var(--text-secondary) !important;
+  transition: all 0.3s !important;
+  font-size: 18px !important;
+}
+.button-ghost a {
+  color: var(--text-secondary);
+}
+.button-ghost:hover {
+  background-color: var(--text-secondary) !important;
+  color: #fff !important;
+  border: 1px solid var(--text-secondary) !important;
+}
+.button-ghost:hover a {
+  color: #fff !important;
+}
+.button-ghost:active {
+  background-color: #7f001a !important ;
+}
+.navbar-nav + .button-ghost {
+  margin-left: auto !important;
+}

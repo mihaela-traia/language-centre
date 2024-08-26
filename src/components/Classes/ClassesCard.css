@@ -1,0 +1,56 @@
+:root {
+  --text-primary: #012169;
+  --text-secondary: #c8102e;
+  --text-button: #ffffff;
+  --footer: #011137;
+  --hover-color-blue: #526899;
+  --secondary-hover: #9d0921;
+  --secondary-active: #7f001a;
+}
+.josefin-sans-h3 {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-size: 25px;
+}
+.montserrat-sans-p {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 18px;
+}
+div.classes-card h3.card-title {
+  color: var(--text-secondary) !important;
+  padding-bottom: 3vh;
+}
+.classes-card {
+  margin: 0 auto;
+}
+
+.classes-card .card {
+  border-radius: 20px;
+  border: 0;
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1),
+    0 6px 20px rgba(0, 0, 0, 0.1);
+  background-color: #f9fcfe;
+  width: 100% !important;
+  margin-bottom: 20px;
+}
+.classes-card .card-body {
+  width: 100% !important;
+  padding-left: 1.823vw;
+}
+.classes-card .button-reserve .btn {
+  font-weight: 500;
+  background-color: var(--text-secondary);
+  border: var(--text-secondary);
+  padding: 12px 49px;
+}
+.classes-card .button-reserve .btn:hover {
+  background-color: var(--secondary-hover);
+  border: var(--secondary-hover);
+}
+.classes-card .button-reserve .btn:active {
+  background-color: var(--secondary-active);
+  border: var(--secondary-active);
+}

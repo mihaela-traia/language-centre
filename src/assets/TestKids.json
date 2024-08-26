@@ -1,0 +1,219 @@
+[
+  {
+    "question_string": "My boss ___________ in Canada.",
+    "choices": {
+      "correct": "was born",
+      "wrong": ["born", "is born"]
+    }
+  },
+  {
+    "question_string": "Excuse me, Barbara. I’d like you to meet a friend from New York. _______ Ken Augustine.",
+    "choices": {
+      "correct": "This is",
+      "wrong": ["That is", "It is"]
+    }
+  },
+  {
+    "question_string": "Please _________ a seat. I’ll be with you in a moment.",
+    "choices": {
+      "correct": "have",
+      "wrong": ["go on", "take"]
+    }
+  },
+  {
+    "question_string": "People here usually ______ at about 10 o’clock.",
+    "choices": {
+      "correct": "wake up",
+      "wrong": ["take up", "has"]
+    }
+  },
+  {
+    "question_string": "Most women are________ than their husbands.",
+    "choices": {
+      "correct": "younger",
+      "wrong": ["more young", "young"]
+    }
+  },
+  {
+    "question_string": "Would you like a cup of coffee?",
+    "choices": {
+      "correct": "No, thanks.",
+      "wrong": ["No, I don’t.", "No, I don’ like."]
+    }
+  },
+  {
+    "question_string": "Where _________ grow up?",
+    "choices": {
+      "correct": "did you",
+      "wrong": ["are you", "do you"]
+    }
+  },
+  {
+    "question_string": "I got ______ at midnight.",
+    "choices": {
+      "correct": "home",
+      "wrong": ["in home", "at home"]
+    }
+  },
+  {
+    "question_string": "My boss ___________ in Canada",
+    "choices": {
+      "correct": "was born",
+      "wrong": ["born", "is born"]
+    }
+  },
+  {
+    "question_string": "I’m very _________ with my new computer.",
+    "choices": {
+      "correct": "happy",
+      "wrong": ["glad", "lucky"]
+    }
+  },
+  {
+    "question_string": "She didn’t give me _________ information about the meeting.",
+    "choices": {
+      "correct": "much",
+      "wrong": ["many", "less"]
+    }
+  },
+  {
+    "question_string": "She lives ______ London.",
+    "choices": {
+      "correct": "in",
+      "wrong": ["at", "on"]
+    }
+  },
+  {
+    "question_string": "I had a headache so I took an aspirin. I feel much _________ now.",
+    "choices": {
+      "correct": "better",
+      "wrong": ["well", "good"]
+    }
+  },
+  {
+    "question_string": "I’m afraid February 10th isn’t very _______ for me.",
+    "choices": {
+      "correct": "convenient",
+      "wrong": ["convenient", "well"]
+    }
+  },
+  {
+    "question_string": "Mexico City is ________ than Amsterdam.",
+    "choices": {
+      "correct": "bigger",
+      "wrong": ["more big", "biggest"]
+    }
+  },
+  {
+    "question_string": "___________ you like to pay for the ticket by cheque or credit card?",
+    "choices": {
+      "correct": "Would",
+      "wrong": ["Do", "Are"]
+    }
+  },
+  {
+    "question_string": "I usually _________ a shower in the morning.",
+    "choices": {
+      "correct": "have",
+      "wrong": ["take", "go on"]
+    }
+  },
+  {
+    "question_string": "I don’t want to fly to Paris. Let’s __________ the train.",
+    "choices": {
+      "correct": "take",
+      "wrong": ["have", "go on"]
+    }
+  },
+  {
+    "question_string": "Don’t work so fast. _________ your time!",
+    "choices": {
+      "correct": "Take",
+      "wrong": ["Have", "Go on"]
+    }
+  },
+  {
+    "question_string": "I think I ________ what the problem is.",
+    "choices": {
+      "correct": "see",
+      "wrong": ["look", "hear"]
+    }
+  },
+  {
+    "question_string": "This morning I __________ a taxi to work.",
+    "choices": {
+      "correct": "took",
+      "wrong": ["went on", "had"]
+    }
+  },
+  {
+    "question_string": "Do you like juice?",
+    "choices": {
+      "correct": "Yes, I do.",
+      "wrong": ["Yes, I like it.", "Yes, I would. Thank you very much."]
+    }
+  },
+  {
+    "question_string": "The company plans to sell its products in Asia _______ .",
+    "choices": {
+      "correct": "next year",
+      "wrong": ["in 1987", "last year"]
+    }
+  },
+  {
+    "question_string": "Look! The bus __________.",
+    "choices": {
+      "correct": "is coming",
+      "wrong": ["came", "comes"]
+    }
+  },
+  {
+    "question_string": "Can I _______ you a few questions?",
+    "choices": {
+      "correct": "ask",
+      "wrong": ["make", "do"]
+    }
+  },
+  {
+    "question_string": "Last year I _________ a long journey to China.",
+    "choices": {
+      "correct": "took",
+      "wrong": ["went on", "made"]
+    }
+  },
+  {
+    "question_string": "How do you do?",
+    "choices": {
+      "correct": "Good, how do you do?",
+      "wrong": ["Yes, I do.", "I work in a bank."]
+    }
+  },
+  {
+    "question_string": "You work too much. Why don’t you _________ a holiday?",
+    "choices": {
+      "correct": "take",
+      "wrong": ["have", "make"]
+    }
+  },
+  {
+    "question_string": "Tessa _______ British.",
+    "choices": {
+      "correct": "is",
+      "wrong": ["are", "am"]
+    }
+  },
+  {
+    "question_string": "It was a very good party. Everyone ________ a wonderful time.",
+    "choices": {
+      "correct": "had",
+      "wrong": ["made", "took"]
+    }
+  },
+  {
+    "question_string": "She lived in New York between 1983 and 1990, so she worked there ________.",
+    "choices": {
+      "correct": "for seven years",
+      "wrong": ["seven years ago", "it make seven years"]
+    }
+  }
+]

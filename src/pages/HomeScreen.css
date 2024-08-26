@@ -1,0 +1,1058 @@
+:root {
+  --primary: #012169;
+  --secondary: #c8102e;
+  --button: #ffffff;
+  --footer: #011137;
+  --primary-hover: #526899;
+  --primary-active: #00154b;
+  --secondary-hover: #9d0921;
+  --secondary-active: #7f001a;
+  --unselected: #c7c7c7;
+  --bg-blue: rgba(186, 224, 243, 0.2);
+  --bg-red: rgba(240, 188, 196, 0.2);
+  --bg-dark-blue: #011647;
+  --back-hover: #a8b5d0;
+  --shadow-card: 0 -4px 8px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1),
+    0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.josefin-sans-h1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 120%;
+}
+.josefin-sans-h2 {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 42px;
+}
+.josefin-sans-h3 {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 25px;
+}
+.montserrat-sans-p {
+  font-family: "Montserrat", sans-serif !important;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: 16px !important;
+}
+
+.main {
+  position: relative;
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+}
+
+/* HOME */
+
+section.home {
+  color: var(--primary);
+  height: calc(100vh - 95px);
+  position: static;
+  overflow: hidden;
+}
+.home div.girl-home {
+  position: relative;
+  width: auto;
+  height: 95vh;
+}
+.slogan {
+  margin-bottom: 2.2rem;
+  z-index: 7;
+  position: relative;
+}
+.slogan-more {
+  font-weight: 500 !important;
+  margin-bottom: 2.2rem;
+  z-index: 7;
+  position: relative;
+}
+.buttom-more {
+  border: 0 !important;
+  padding: 0.8rem 1.6rem !important;
+  background-color: var(--primary) !important;
+  color: var(--button) !important;
+  z-index: 7;
+  position: relative;
+}
+.buttom-more:hover {
+  background-color: var(--primary-hover) !important;
+}
+.buttom-more:active {
+  background-color: var(--primary-active) !important;
+}
+.home .clouds img {
+  min-width: 150px;
+  height: auto;
+  width: 10.425vw;
+  position: absolute;
+  top: 12.5vh;
+  right: 7vw;
+  z-index: 7;
+}
+.home img {
+  position: absolute;
+}
+
+/*ABOUT*/
+
+section.about {
+  min-height: 100vh;
+  background-color: var(--bg-blue);
+}
+.about h2 {
+  color: var(--secondary);
+  padding-top: 100px;
+}
+.about .card {
+  font-weight: 900 !important;
+  border: 4px solid var(--primary);
+  background-color: transparent;
+  border-radius: 10px;
+  color: var(--primary) !important;
+  text-align: center;
+}
+
+.about .card-img-top {
+  margin-top: 20px;
+  width: 20% !important;
+  align-self: center;
+}
+#exam-img {
+  width: 80px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.about .plane img,
+.about .line-about img,
+.about .doodle-about-one,
+.about .doodle-about-two {
+  position: absolute;
+}
+
+/*CLASSES*/
+
+section.classes {
+  min-height: 100vh;
+}
+.classes .card-wrapper {
+  position: relative;
+  display: flex;
+  z-index: 7;
+}
+.classes h2 {
+  color: var(--primary);
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.classes .line-classes img {
+  position: absolute;
+  height: 36.1vh;
+  width: 42.083%;
+  top: 203vh;
+  left: 3.5vw;
+}
+.classes .card {
+  margin-top: 10px;
+  width: 32vw;
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1),
+    0 6px 20px rgba(0, 0, 0, 0.1);
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+.classes .card:hover {
+  transform: scale(1.06);
+  box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.15), 0 4px 12px rgba(0, 0, 0, 0.15),
+    0 8px 24px rgba(0, 0, 0, 0.15);
+  z-index: 7;
+}
+.classes .card img {
+  width: 30.208vw;
+  height: auto;
+  align-self: center;
+  margin-top: 0;
+}
+.classes .card-body {
+  color: var(--text-primary) !important;
+}
+
+.classes .time,
+.classes .location,
+.classes .person {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 0.5rem;
+}
+.classes h3 {
+  color: var(--secondary);
+  font-weight: 700;
+}
+.classes .card-body p {
+  margin: 0;
+  color: var(--primary);
+  font-weight: 500 !important;
+}
+.classes .card-info img {
+  height: 30px !important;
+  width: 30px !important;
+}
+
+/*TEST*/
+
+section.test {
+  height: auto;
+  min-height: 100vh;
+  width: 100%;
+  background-color: var(--bg-red);
+  overflow: hidden;
+}
+.test h2 {
+  color: var(--secondary);
+  padding-top: 19.8rem;
+  position: relative;
+  z-index: 7;
+}
+.test p {
+  color: var(--primary) !important;
+  margin: 40px 0px;
+  font-weight: 500 !important;
+  width: 50%;
+}
+.test .button-test {
+  background-color: var(--secondary);
+  border: 0;
+  padding: 20px 50px;
+  position: relative;
+  z-index: 7;
+  max-width: 20%;
+  min-width: 225px;
+}
+.test .button-test a {
+  color: #ffffff;
+  font-weight: 500 !important;
+}
+.test .button-test:hover {
+  background-color: var(--secondary-hover);
+}
+.test .button-test:active {
+  background-color: var(--secondary-active);
+}
+
+.line-test img {
+  position: absolute;
+  height: 851px;
+  width: 95%;
+  top: 310vh;
+  left: 0vw;
+  z-index: 1;
+}
+.test .clouds-test img {
+  position: absolute;
+  height: 199px;
+  width: auto;
+  top: 320vh;
+  left: 2vw;
+}
+.test .cloud-sun img {
+  position: absolute;
+  width: auto;
+  height: 142px;
+  top: 302vh;
+  right: 23vw;
+}
+.test .trees {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+.test .trees img {
+  position: relative;
+  height: 150px;
+  width: auto;
+  right: -50vw;
+  bottom: -18.5vh;
+}
+.test .doodle-test-one img {
+  position: absolute;
+  height: 11.9vh;
+  width: 3.8vw;
+  top: 302vh;
+  left: 19vw;
+}
+.test .doodle-test-two img {
+  position: absolute;
+  height: 11.4vh;
+  width: 5vw;
+  top: 336vh;
+  right: 19vw;
+}
+
+/*CONTACT*/
+
+section.contact {
+  height: auto;
+  min-height: 100vh;
+  padding-bottom: 10vh;
+  padding-left: 12.75vw;
+  padding-right: 12.75vw;
+}
+section.contact h2 {
+  color: var(--primary);
+  padding-top: 100px;
+}
+.contact h3 {
+  color: var(--button);
+  font-weight: 400 !important;
+  padding-bottom: 15px;
+}
+.contact-info {
+  background-color: var(--bg-dark-blue);
+  color: var(--button);
+  padding: 60px 0px;
+}
+section.contact a {
+  color: var(--button);
+}
+.contact .col {
+  padding: 0 !important;
+}
+.contact .col-lg-6 {
+  padding: 0 !important;
+}
+.contact .info {
+  padding-top: 58px;
+}
+section.contact p {
+  width: 90%;
+  text-align: center;
+}
+.contact-info img {
+  width: auto;
+  margin-bottom: 15px;
+}
+.social-about {
+  margin-top: 30px;
+}
+.phone,
+.social {
+  margin: 0px !important;
+}
+
+/* MEDIA QUERIES */
+
+@media (min-width: 1400px) {
+  /* HOME */
+  .home .girl-home img {
+    max-width: 791px !important;
+    width: 761px;
+    height: auto;
+    right: -4vw;
+    bottom: 0vh;
+    min-width: 38.8vw;
+  }
+  .home .line-one img {
+    top: 20vh;
+    right: 0vw;
+    height: 313px;
+    width: 60%;
+  }
+  .home .line-two img {
+    height: 432px;
+    width: 90%;
+    top: 53vh;
+    right: 4vw;
+  }
+  .home .kid-one img {
+    height: auto;
+    width: 5.68%;
+    min-width: 50px;
+    top: 40vh;
+    right: 9vw;
+  }
+  .home .kid-two img {
+    height: auto;
+    min-width: 50px;
+    width: 5.208%;
+    top: 75vh;
+    left: 8vw;
+  }
+  /* ABOUT */
+
+  .about .plane img {
+    height: 114px;
+    width: 5.938%;
+    top: 96vh;
+    left: 26vw;
+  }
+  .about .line-about img {
+    height: 310px;
+    width: 38% !important;
+    top: 170vh;
+    right: 8vw;
+  }
+  .about .doodle-about-one {
+    height: 99px;
+    width: 100%;
+    top: 177vh;
+    left: 83vw;
+  }
+  .about .doodle-about-two {
+    height: 100px;
+    width: 100%;
+    top: 130vh;
+    left: 12vw;
+  }
+}
+@media (max-width: 1399.98px) {
+  /* HOME */
+  .home .slogan {
+    padding-top: 50px;
+  }
+  .home .girl-home img {
+    width: 45.854vw !important;
+    right: 1vw;
+    height: auto;
+    bottom: 0vh;
+    min-width: 45.7vw;
+  }
+  .home .line-one img {
+    top: 26vh;
+    right: 0vw;
+    height: 313px;
+    width: 60%;
+  }
+  .home .line-two img {
+    height: 350px;
+    width: 95%;
+    top: 60vh;
+    right: 3.5vw;
+  }
+  .home .kid-one img {
+    width: 5.208%;
+    min-width: 50px;
+    top: 50vh;
+    right: 10vw;
+  }
+  .home .kid-two img {
+    min-width: 50px;
+    width: 5.208%;
+    top: 80vh;
+    left: 3vw;
+  }
+  /* ABOUT */
+
+  .about .plane img {
+    height: 100px;
+    width: auto;
+    top: 97vh;
+    left: 20vw;
+  }
+  .about .line-about img {
+    height: 250px;
+    width: 38% !important;
+    top: 190vh;
+    right: 3vw;
+  }
+  .about .doodle-about-one {
+    height: 99px;
+    width: 100%;
+    top: 195vh;
+    left: 89vw;
+  }
+  .about .doodle-about-two {
+    height: 100px;
+    width: 100%;
+    top: 130vh;
+    left: 5vw;
+  }
+  #exam-img {
+    width: 68px;
+    height: auto;
+  }
+
+  /* CLASSES */
+  .classes .card-wrapper {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    z-index: 7;
+    padding-bottom: 10%;
+  }
+  .classes .card {
+    width: 60%;
+    height: auto;
+    margin: 0% 20%;
+  }
+  .classes .card img {
+    width: 100%;
+    height: auto;
+    align-self: center;
+    margin-top: 0;
+  }
+  .classes .line-classes img {
+    height: 361px;
+    width: 40.083%;
+    top: 219vh;
+    left: 3.5vw;
+  }
+
+  /* TEST */
+  .line-test img {
+    height: 650px;
+    width: 89%;
+    top: 551vh;
+    left: 0vw;
+    z-index: 1;
+  }
+  .test .clouds-test img {
+    height: 199px;
+    width: auto;
+    top: 550vh;
+    left: 2vw;
+  }
+  .test .cloud-sun img {
+    width: auto;
+    height: 142px;
+    top: 532vh;
+    right: 23vw;
+  }
+  .test .trees {
+    width: 100%;
+    height: auto;
+  }
+  .test .trees img {
+    height: 150px;
+    width: auto;
+    right: -50vw;
+    bottom: -2.5vh;
+  }
+  .test .doodle-test-one img {
+    height: 11.9vh;
+    width: 3.8vw;
+    top: 542vh;
+    left: 19vw;
+  }
+  .test .doodle-test-two img {
+    height: 11.4vh;
+    width: 5vw;
+    top: 570vh;
+    right: 19vw;
+  }
+}
+@media (max-width: 1199.98px) {
+  /* HOME */
+  .home .girl-home img {
+    position: absolute;
+    width: 50.854vw !important;
+    right: -4vw;
+    height: auto;
+    bottom: 0vh;
+  }
+  .home .line-two img {
+    position: absolute;
+    height: 320px;
+    width: 110%;
+    top: 63vh;
+    right: -3vw;
+  }
+  .home .kid-one img {
+    position: absolute;
+    height: auto;
+    width: 5.208%;
+    min-width: 70px;
+    top: 53vh;
+    right: 9vw;
+  }
+  .home .kid-two img {
+    position: absolute;
+    height: auto;
+    min-width: 70px;
+    width: 5.208%;
+    top: 85vh;
+    left: 3vw;
+  }
+  /* ABOUT */
+
+  .about .plane img {
+    height: 100px;
+    width: auto;
+    top: 97vh;
+    left: 15vw;
+  }
+  .about .line-about img {
+    height: 250px;
+    width: 38% !important;
+    top: 201vh;
+    right: 4vw;
+  }
+  .about .doodle-about-one {
+    height: 89px;
+    width: 90%;
+    top: 205vh;
+    left: 87vw;
+  }
+  #exam-img {
+    width: 55.98px;
+    height: auto;
+  }
+  /* CLASSES */
+  .classes .line-classes img {
+    height: 361px;
+    width: 42%;
+    top: 228vh;
+    left: 2vw;
+  }
+  /* TEST */
+  .line-test img {
+    height: 650px;
+    width: 89%;
+    top: 531vh;
+    left: -2vw;
+    z-index: 1;
+  }
+  .test .clouds-test img {
+    height: 150px;
+    width: auto;
+    top: 540vh;
+    left: 2vw;
+  }
+  .test .cloud-sun img {
+    width: auto;
+    height: 142px;
+    top: 507vh;
+    right: 19vw;
+  }
+  .test .doodle-test-one img {
+    height: 11.9vh;
+    width: auto;
+    top: 522vh;
+    left: 10vw;
+  }
+  .test .doodle-test-two img {
+    height: 11.4vh;
+    width: auto;
+    top: 550vh;
+    right: 19vw;
+  }
+}
+@media (max-width: 991.98px) {
+  /* HOME */
+  .home .girl-home img {
+    position: absolute;
+    width: 40.854vw !important;
+    right: -45vw;
+    height: auto;
+    bottom: 70vh;
+    min-width: 38vw;
+  }
+  .home .line-one img {
+    position: absolute;
+    top: 40vh;
+    right: 0vw;
+    height: 220px;
+    width: 60%;
+  }
+  .home .line-two img {
+    position: absolute;
+    height: 280px;
+    width: 130%;
+    top: 67vh;
+    left: -21vw;
+  }
+  .home .kid-one img {
+    position: absolute;
+    height: auto;
+    width: 3.708%;
+    min-width: 70px;
+    top: 34vh;
+    right: 9vw;
+  }
+  .home .kid-two img {
+    position: absolute;
+    height: auto;
+    min-width: 70px;
+    width: 4.808%;
+    top: 65vh;
+    left: 2vw;
+  }
+
+  /* ABOUT */
+
+  .about .plane img {
+    height: 100px;
+    width: auto;
+    top: 97vh;
+    left: 6vw;
+  }
+  .about .line-about img {
+    height: 170px;
+    width: 30% !important;
+    top: 343vh;
+    right: 10vw;
+  }
+  .about .doodle-about-one {
+    height: 89px;
+    width: 90%;
+    top: 260vh;
+    left: 85vw;
+  }
+  .about .doodle-about-two {
+    height: 100px;
+    width: 100%;
+    top: 130vh;
+    left: 7.5vw;
+  }
+  #exam-img {
+    width: 130px;
+    height: auto;
+  }
+  /* CLASSES */
+  .classes .line-classes img {
+    height: 201px;
+    width: 30%;
+    top: 365vh;
+    left: 10vw;
+  }
+  .classes .card-info {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .classes .card-info > div {
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+
+  /* TEST */
+  .line-test img {
+    height: 690px;
+    width: 120%;
+    top: 633vh;
+    left: -19vw;
+    z-index: 1;
+  }
+  .test .clouds-test img {
+    height: 150px;
+    width: auto;
+    top: 650vh;
+    left: 2vw;
+  }
+  .test .cloud-sun img {
+    width: auto;
+    height: 130px;
+    top: 610vh;
+    right: 15vw;
+  }
+  .test .doodle-test-one img {
+    height: 11.9vh;
+    width: auto;
+    top: 625vh;
+    left: 12vw;
+  }
+  .test p {
+    width: 80%;
+  }
+  .test .doodle-test-two img {
+    height: 11.4vh;
+    width: auto;
+    top: 655vh;
+    right: 13vw;
+  }
+  .test .trees img {
+    right: -40vw;
+    bottom: -2.5vh;
+  }
+}
+@media (max-width: 767.98px) {
+  /* HOME */
+  .navbar-brand img {
+    width: 130px;
+    height: auto;
+  }
+  .home .line-two img {
+    position: absolute;
+    height: 280px;
+    width: 120%;
+    top: 66vh;
+    left: -13vw;
+  }
+  /* ABOUT */
+
+  .about .plane img {
+    height: 100px;
+    width: auto;
+    top: 97vh;
+    left: 13vw;
+  }
+  .about .line-about img {
+    height: 160px;
+    width: 29% !important;
+    top: 354vh;
+    right: 10.5vw;
+  }
+  /* CLASSES */
+  .classes .card {
+    width: 80%;
+    height: auto;
+    margin: 0% 10%;
+  }
+
+  .classes .line-classes img {
+    height: 201px;
+    width: 30%;
+    top: 375vh;
+    left: 9vw;
+  }
+
+  /* TEST */
+  .line-test img {
+    display: none;
+  }
+  .test .clouds-test img {
+    height: 150px;
+    width: auto;
+    top: 673vh;
+    left: 0vw;
+  }
+  .test .cloud-sun img {
+    width: auto;
+    height: 130px;
+    top: 615vh;
+    right: 15vw;
+  }
+  .test p {
+    width: 100%;
+  }
+  .test .trees img {
+    right: -35vw;
+    bottom: -2.5vh;
+  }
+  .test .doodle-test-one img {
+    display: none;
+  }
+  .test .doodle-test-two img {
+    display: none;
+  }
+}
+@media (max-width: 575.98px) {
+  /* HOME */
+  .home .clouds img {
+    top: 0vh !important;
+    right: 2vw;
+  }
+  .home .girl-home img {
+    position: absolute;
+    width: 50.854vw !important;
+    right: -45vw;
+    height: auto;
+    bottom: 70vh;
+    min-width: 48vw;
+  }
+  .home .line-one img {
+    position: absolute;
+    top: 50vh;
+    right: 0vw;
+    height: 170px;
+    width: 60%;
+  }
+  .home .line-two img {
+    position: absolute;
+    height: 220px;
+    width: 130%;
+    top: 67vh;
+    left: -23vw;
+  }
+  .home .kid-one img {
+    display: none;
+  }
+  .home .kid-two img {
+    display: none;
+  }
+
+  /* ABOUT */
+
+  .about .plane img {
+    height: 80px;
+    width: auto;
+    top: 90vh;
+    left: 6vw;
+  }
+  #exam-img {
+    width: 103.8px;
+    height: auto;
+  }
+  .about .line-about img,
+  .about .doodle-about-one,
+  .about .doodle-about-two {
+    display: none;
+  }
+  /* CLASSES */
+  .classes .card {
+    width: 90%;
+    height: auto;
+    margin: 0% 5%;
+  }
+  .classes .line-classes {
+    display: none;
+  }
+  /* TEST */
+
+  .test .clouds-test img {
+    height: 150px;
+    width: auto;
+    top: 651vh;
+    left: -4vw;
+  }
+  .test .cloud-sun img {
+    width: auto;
+    height: 130px;
+    top: 590vh;
+    right: 10vw;
+  }
+
+  .test .trees img {
+    right: -40vw;
+    bottom: -2.5vh;
+  }
+}
+
+@media (max-width: 575.98px) {
+  /* HOME */
+  .home .clouds img {
+    top: 0vh !important;
+    right: 2vw;
+  }
+  .home .girl-home img {
+    position: absolute;
+    width: 50.854vw !important;
+    right: -45vw;
+    height: auto;
+    bottom: 70vh;
+    min-width: 48vw;
+  }
+  .home .line-one img {
+    position: absolute;
+    top: 50vh;
+    right: 0vw;
+    height: 170px;
+    width: 60%;
+  }
+  .home .line-two img {
+    position: absolute;
+    height: 220px;
+    width: 130%;
+    top: 67vh;
+    left: -23vw;
+  }
+  .home .kid-one img {
+    display: none;
+  }
+  .home .kid-two img {
+    display: none;
+  }
+
+  /* ABOUT */
+
+  .about .plane img {
+    height: 80px;
+    width: auto;
+    top: 90vh;
+    left: 6vw;
+  }
+  #exam-img {
+    width: 103.8px;
+    height: auto;
+  }
+  .about .line-about img,
+  .about .doodle-about-one,
+  .about .doodle-about-two {
+    display: none;
+  }
+  /* CLASSES */
+  .classes .card {
+    width: 90%;
+    height: auto;
+    margin: 0% 5%;
+  }
+  .classes .line-classes {
+    display: none;
+  }
+  /* TEST */
+
+  .test .clouds-test img {
+    height: 150px;
+    width: auto;
+    top: 651vh;
+    left: -4vw;
+  }
+  .test .cloud-sun img {
+    width: auto;
+    height: 130px;
+    top: 590vh;
+    right: 10vw;
+  }
+
+  .test .trees img {
+    right: -40vw;
+    bottom: -2.5vh;
+  }
+}
+@media (max-width: 540px) {
+  /* HOME */
+  .home .clouds img {
+    display: none;
+  }
+  .home .girl-home img {
+    position: absolute;
+    width: 63.854vw !important;
+    right: -50vw;
+    height: auto;
+    bottom: 70vh;
+    min-width: 48vw;
+  }
+}
+
+@media (max-width: 450px) {
+  /* HOME */
+  .home .slogan {
+    font-size: 60px;
+  }
+  .home .girl-home img {
+    position: absolute;
+    width: 70.854vw !important;
+    right: -54vw;
+    height: auto;
+    bottom: 70vh;
+    min-width: 48vw;
+  }
+
+  .test .clouds-test img {
+    display: none;
+  }
+  .test .cloud-sun img {
+    display: none;
+  }
+
+  .test .trees img {
+    right: -40vw;
+    bottom: -2.5vh;
+  }
+  .test h2 {
+    padding-top: 100px;
+  }
+  section.test {
+    height: fit-content;
+    min-height: auto;
+  }
+}
